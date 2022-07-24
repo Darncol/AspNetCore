@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\AspNetCore\\sportsStore\\SportsStore\\SportsStore\\SportsStore.csproj",
+      "projectUniqueName": "D:\\Programming\\AspNetCore\\SportsStore\\SportsStore\\SportsStore.csproj",
       "projectName": "SportsStore",
-      "projectPath": "D:\\Programming\\AspNetCore\\sportsStore\\SportsStore\\SportsStore\\SportsStore.csproj",
+      "projectPath": "D:\\Programming\\AspNetCore\\SportsStore\\SportsStore\\SportsStore.csproj",
       "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\AspNetCore\\sportsStore\\SportsStore\\SportsStore\\obj\\",
+      "outputPath": "D:\\Programming\\AspNetCore\\SportsStore\\SportsStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programs\\VisualStudio\\Shared\\NuGetPackages"
