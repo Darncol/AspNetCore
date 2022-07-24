@@ -11886,11 +11886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Store\\Store\\Store.csproj",
+      "projectUniqueName": "D:\\Programming\\AspNetCore\\Store\\Store\\Store.csproj",
       "projectName": "Store",
-      "projectPath": "D:\\Programming\\Store\\Store\\Store.csproj",
+      "projectPath": "D:\\Programming\\AspNetCore\\Store\\Store\\Store.csproj",
       "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Store\\Store\\obj\\",
+      "outputPath": "D:\\Programming\\AspNetCore\\Store\\Store\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programs\\VisualStudio\\Shared\\NuGetPackages"
