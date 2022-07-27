@@ -1,32 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Store.Models;
-using System.Diagnostics;
+
 
 namespace Store.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        public ViewResult Index()
         {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            int hour = DateTime.Now.Hour;
+            string viewModel = hour < 12 ? "Good morning" : "Good Afrtermoon";
+            return View("MyView", viewModel);
         }
     }
 }
